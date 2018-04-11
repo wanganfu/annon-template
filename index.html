@@ -1,0 +1,757 @@
+﻿<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    <title>Vtrois&#039;s Blog</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telphone=no, email=no">
+    <meta name="description" content="在这里我会向大家分享软件编程与服务器优化的经验与读书心得和笔记，同时也会记录工作与生活中的点点滴滴，欢迎大家持续关注与订阅。">
+    <meta name="keywords" content="Vtrois,SpacePack,Tencent,Kratos,Dobby,Developer,Web,JavaScript,PHP,C#">
+    <meta name="description" itemprop="description" content="在这里我会向大家分享软件编程与服务器优化的经验与读书心得和笔记，同时也会记录工作与生活中的点点滴滴，欢迎大家持续关注与订阅。"/>
+    <link rel="icon" type="image/x-icon" href="https://www.vtrois.com/wp-content/uploads/favicon.ico">
+    <link rel='stylesheet' id='bootstrap-css' href='css/bootstrap.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css' href='css/animate.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='volcano-css' href='css/volcano.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='volcano-css' href='css/main.css' type='text/css' media='all' />
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark site-header">
+        <header class="container">
+            <button class="navbar-toggler p-0 border-0 nav-list" id="navbutton" type="button" data-toggle="collapse" data-target="#navbars"
+                aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="line first-line"></span>
+                <span class="line second-line"></span>
+                <span class="line third-line"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.vtrois.com">ANNON Blog</a>
+            <a class="navbar-toggler p-0 border-0" href="#">
+                <span class="volcano v3-users"></span>
+            </a>
+            <div class="navbar-collapse full-collapse collapse" id="navbars">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a title="奇淫技巧" href="https://www.vtrois.com/tips" class="nav-link">奇淫技巧</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="编程算法" href="https://www.vtrois.com/programming" class="nav-link">编程算法</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="运维笔记" href="https://www.vtrois.com/operations" class="nav-link">运维笔记</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="安全攻防" href="https://www.vtrois.com/security" class="nav-link">安全攻防</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="建站模板" href="https://www.vtrois.com/wordpress" class="nav-link">建站模板</a>
+                    </li>
+                </ul>
+                <form class="form-inline d-none d-lg-block" role="search" method="get" id="searchform" action="https://www.vtrois.com/">
+                    <input class="form-control mr-sm-2" type="search" id="search" name="s" placeholder="Search" aria-label="Search">
+                    <button class="btn-search" type="submit">Search</button>
+                </form>
+                <div class="ml-3 mr-0 d-none d-md-block">
+                    <a class="btn btn-danger text-light btn-sm" href="#">
+                        登录
+                    </a>
+                </div>
+            </div>
+        </header>
+    </nav>
+    <main class="main index-page bg-light pb-4">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="gamma-list">
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block">
+                                <i class="volcano v3-hot"></i>
+                            </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/chrome-shape-detection-api.html">
+                                        <img class="img-thumbnail" src="picture/chrome-shape-detection-api-2.png" alt="基于 Chrome 的 Shape Detection API"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/chrome-shape-detection-api.html">基于 Chrome 的 Shape Detection API</a>
+                                    </h2>
+                                    <p class="card-text">照片和图像是网络中最大的组成部分，其中许多包括可识别的特征，例如人脸或二维码。检测这些图片功能的计算成本很高，但是在一些移动设备上，硬件制造商一直都支持这些功能，本篇文章介绍的就是
+                                        Chrome 中 Shape Detection API 的三个接口的作用与实例说明。</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/chrome-shape-detection-api.html">
+                                            <i class="volcano v3-activity"></i> 2018年3月23日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/chrome-shape-detection-api.html">
+                                            <i class="volcano v3-browse"></i> 10.84k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/chrome-shape-detection-api.html#respond">
+                                            <i class="volcano v3-interactive"></i> 0 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/chrome-shape-detection-api.html">
+                                            <i class="volcano v3-thumbs"></i> 3.57k 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/chrome-shape-detection-api.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block"> </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/wordpress-php7-2-count-warning.html">
+                                        <img class="img-thumbnail" src="picture/wordpress.png" alt="解决 PHP 7.2 环境中 WordPress 的 count() 调用问题"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/wordpress-php7-2-count-warning.html">解决 PHP 7.2 环境中 WordPress 的 count() 调用问题</a>
+                                    </h2>
+                                    <p class="card-text">正研究着腾讯云的物联云产品，突然群里有小伙伴 at 我，然后问了一个 WordPress 的报错问题，看了一下报错是在 WordPress 4.9.4 的 PHP 7.2
+                                        环境中出现 count() 警告报错，那么这篇文章将给大家介绍问题排查方法以及这个问题的产生原因和解决思路。</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/wordpress-php7-2-count-warning.html">
+                                            <i class="volcano v3-activity"></i> 2018年3月22日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/wordpress-php7-2-count-warning.html">
+                                            <i class="volcano v3-browse"></i> 1.85k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/wordpress-php7-2-count-warning.html#respond">
+                                            <i class="volcano v3-interactive"></i> 1 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/wordpress-php7-2-count-warning.html">
+                                            <i class="volcano v3-thumbs"></i> 229 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/wordpress-php7-2-count-warning.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block"> </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/qcloud-kms-encrypt-data.html">
+                                        <img class="img-thumbnail" src="picture/qcloud-kms.png" alt="善用腾讯云密钥管理服务加密你的数据" />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/qcloud-kms-encrypt-data.html">善用腾讯云密钥管理服务加密你的数据</a>
+                                    </h2>
+                                    <p class="card-text">腾讯云密钥管理服务是一项保护数据及密钥安全的密钥服务，使用该服务可以使你的数据或密钥等敏感信息获得更高安全性，你可以更关注与自身的业务实现，而不是过于担忧敏感信息的泄露。敏感信息是访问企业更高机密以及安全通道的钥匙，它本身的安全性尤为重要，所以在公司业务发展的阶段就应该规划其安全性。</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/qcloud-kms-encrypt-data.html">
+                                            <i class="volcano v3-activity"></i> 2018年3月19日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/qcloud-kms-encrypt-data.html">
+                                            <i class="volcano v3-browse"></i> 2.52k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/qcloud-kms-encrypt-data.html#respond">
+                                            <i class="volcano v3-interactive"></i> 0 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/qcloud-kms-encrypt-data.html">
+                                            <i class="volcano v3-thumbs"></i> 243 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/qcloud-kms-encrypt-data.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block"> </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/sublime-text-remove-all-comments.html">
+                                        <img class="img-thumbnail" src="picture/sublime-text.png" alt="Sublime Text 一键去掉所有注释"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/sublime-text-remove-all-comments.html">Sublime Text 一键去掉所有注释</a>
+                                    </h2>
+                                    <p class="card-text">Sublime Text 是一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用她来写代码，绝对是一种享受。相对于其他的编辑器我还是独爱
+                                        Sublime Text，那么假设有一个需求是需要将整篇代码的注释都去掉，那么该怎么做呢？</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/sublime-text-remove-all-comments.html">
+                                            <i class="volcano v3-activity"></i> 2018年3月18日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/sublime-text-remove-all-comments.html">
+                                            <i class="volcano v3-browse"></i> 2.74k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/sublime-text-remove-all-comments.html#respond">
+                                            <i class="volcano v3-interactive"></i> 0 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/sublime-text-remove-all-comments.html">
+                                            <i class="volcano v3-thumbs"></i> 900 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/sublime-text-remove-all-comments.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block">
+                                <i class="volcano v3-hot"></i>
+                            </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/dnspod-api-lets-encrypt.html">
+                                        <img class="img-thumbnail" src="picture/dnspod-api-lets-encrypt-1.png" alt="腾讯云 DNSPod API 申请 Let&#8217;s Encrypt 泛域名证书"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/dnspod-api-lets-encrypt.html">腾讯云 DNSPod API 申请 Let&#8217;s Encrypt 泛域名证书</a>
+                                    </h2>
+                                    <p class="card-text">Let's Encrypt 于2018年3月14日在其官网发布了一篇通知，预示着免费的泛域名证书正式来袭，本文介绍了泛域名证书是什么以及如何使用腾讯云 DNSPod API
+                                        申请签发 Let's Encrypt 的泛域名证书，大家如果在实际操作中遇到了什么问题可以在文章下方留言，比较常见的问题我将整&hellip;</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/dnspod-api-lets-encrypt.html">
+                                            <i class="volcano v3-activity"></i> 2018年3月17日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/dnspod-api-lets-encrypt.html">
+                                            <i class="volcano v3-browse"></i> 5.98k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/dnspod-api-lets-encrypt.html#respond">
+                                            <i class="volcano v3-interactive"></i> 3 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/dnspod-api-lets-encrypt.html">
+                                            <i class="volcano v3-thumbs"></i> 1.5k 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/dnspod-api-lets-encrypt.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block"> </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/osx-bing-wallpaper.html">
+                                        <img class="img-thumbnail" src="picture/bing-logo.png" alt="OSX 每天自动获取 Bing 壁纸" />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/osx-bing-wallpaper.html">OSX 每天自动获取 Bing 壁纸</a>
+                                    </h2>
+                                    <p class="card-text">自从换了 MAC 之后，直观的感觉是桌面变的更空旷了，本来我就不喜欢在桌面放东西。所以，壁纸成了装点桌面的唯一工具。正好 Bing 的背景图片每天都会换一张，并且几乎每张图片都让人感觉非常大气，所以就萌生了用
+                                        Bing 图片做壁纸的想法。</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/osx-bing-wallpaper.html">
+                                            <i class="volcano v3-activity"></i> 2018年3月16日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/osx-bing-wallpaper.html">
+                                            <i class="volcano v3-browse"></i> 1.99k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/osx-bing-wallpaper.html#respond">
+                                            <i class="volcano v3-interactive"></i> 1 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/osx-bing-wallpaper.html">
+                                            <i class="volcano v3-thumbs"></i> 362 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/osx-bing-wallpaper.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block">
+                                <i class="volcano v3-hot"></i>
+                            </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/kms-client-key.html">
+                                        <img class="img-thumbnail" src="picture/microsoft-kms.png" alt="微软 KMS 客户端密钥" />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/kms-client-key.html">微软 KMS 客户端密钥</a>
+                                    </h2>
+                                    <p class="card-text">在 Windows 批量许可版本的计算机默认情况下需要进行 KMS 验证，文中表格中是在微软官网 KMS Client Setup Keys 同步的秘钥内容， KMS 是在
+                                        Vista 版本之后的产品中的一种新型产品激活机制，所以文中 KMS 秘钥同步到 Vista 版本。</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/kms-client-key.html">
+                                            <i class="volcano v3-activity"></i> 2018年3月15日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/kms-client-key.html">
+                                            <i class="volcano v3-browse"></i> 4.3k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/kms-client-key.html#respond">
+                                            <i class="volcano v3-interactive"></i> 0 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/kms-client-key.html">
+                                            <i class="volcano v3-thumbs"></i> 1.42k 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/kms-client-key.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block">
+                                <i class="volcano v3-hot"></i>
+                            </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/spacepack-docker-deployment.html">
+                                        <img class="img-thumbnail" src="picture/spacepack-docker.png" alt="SpacePack 高效部署 PHP 生产环境"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/spacepack-docker-deployment.html">SpacePack 高效部署 PHP 生产环境</a>
+                                    </h2>
+                                    <p class="card-text">SpacePack 基于 Docker 为了快速部署 PHP 生产环境而产生的项目，它包含了一般项目中常用的组件，能够在最短的时间内产生一个完善并且优化过的 PHP 生产环境。</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/spacepack-docker-deployment.html">
+                                            <i class="volcano v3-activity"></i> 2018年3月12日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/spacepack-docker-deployment.html">
+                                            <i class="volcano v3-browse"></i> 3.13k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/spacepack-docker-deployment.html#respond">
+                                            <i class="volcano v3-interactive"></i> 2 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/spacepack-docker-deployment.html">
+                                            <i class="volcano v3-thumbs"></i> 1.37k 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/spacepack-docker-deployment.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block">
+                                <i class="volcano v3-hot"></i>
+                            </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/theme-dobby.html">
+                                        <img class="img-thumbnail" src="picture/dobby-demo.jpg" alt="简单大气的响应式主题 Dobby" />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/theme-dobby.html">简单大气的响应式主题 Dobby</a>
+                                    </h2>
+                                    <p class="card-text">Dobby 是一款免费开源并且拥有自适应效果的主题，他能够在任何浏览器下进行友好体验的访问。Dobby 秉持了专心写作专心阅读的特点，简单大方的主页构造，使得博客能在臃肿杂乱的环境中脱颖而出。Dobby
+                                        主题内置了强大的主题后台控制平台，可以轻松设置关键字及站点描述，自定义的顶部样式，强大的底部社交&hellip;</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/theme-dobby.html">
+                                            <i class="volcano v3-activity"></i> 2018年3月11日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/theme-dobby.html">
+                                            <i class="volcano v3-browse"></i> 7.4k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/theme-dobby.html#respond">
+                                            <i class="volcano v3-interactive"></i> 45 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/theme-dobby.html">
+                                            <i class="volcano v3-thumbs"></i> 917 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/theme-dobby.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block"> </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/meltdown-spectre.html">
+                                        <img class="img-thumbnail" src="picture/meltdownspectre.jpg" alt="警惕 Meltdown 和 Spectre 漏洞"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/meltdown-spectre.html">警惕 Meltdown 和 Spectre 漏洞</a>
+                                    </h2>
+                                    <p class="card-text">元旦之后的第一个工作日可谓是惊喜不断，4号就传来了 Google Project Zero 等团队和个人报告的 Meltdown 和 Spectre 内核漏洞的消息，本文将简单介绍一下这两个漏洞，然后通过实际案例复现漏洞，并且给出了当前的解决方案。</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/meltdown-spectre.html">
+                                            <i class="volcano v3-activity"></i> 2018年1月5日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/meltdown-spectre.html">
+                                            <i class="volcano v3-browse"></i> 3.24k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/meltdown-spectre.html#respond">
+                                            <i class="volcano v3-interactive"></i> 3 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/meltdown-spectre.html">
+                                            <i class="volcano v3-thumbs"></i> 602 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/meltdown-spectre.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block"> </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/totp-tutorial.html">
+                                        <img class="img-thumbnail" src="picture/totp.png" alt="基于时间的一次性密码 TOTP" />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/totp-tutorial.html">基于时间的一次性密码 TOTP</a>
+                                    </h2>
+                                    <p class="card-text">TOTP 是一个基于时间的一次性密码算法（也称时间同步的动态密码）。动态口令的基本认证原理是认证双方使用同一个共享密钥对时间进行密码算法计算，之后比较计算值是否一致从而进行认证。TOTP
+                                        使用加密散列函数将密钥与当前时间戳结合，来生成一次性密码，目前这个算法已经写入国际标准 RFC 6238，并且多&hellip;</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/totp-tutorial.html">
+                                            <i class="volcano v3-activity"></i> 2017年11月24日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/totp-tutorial.html">
+                                            <i class="volcano v3-browse"></i> 2.68k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/totp-tutorial.html#respond">
+                                            <i class="volcano v3-interactive"></i> 2 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/totp-tutorial.html">
+                                            <i class="volcano v3-thumbs"></i> 104 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/totp-tutorial.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                        <article class="aside-item card">
+                            <span class="card-new d-none d-md-block d-lg-block"> </span>
+                            <div class="card-body p-0">
+                                <div class="card-thumb">
+                                    <a href="https://www.vtrois.com/ntp-server.html">
+                                        <img class="img-thumbnail" src="picture/ntp-server.png" alt="NTP 服务器的配置与使用" />
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <h2 class="card-title">
+                                        <a class="text-dark" href="https://www.vtrois.com/ntp-server.html">NTP 服务器的配置与使用</a>
+                                    </h2>
+                                    <p class="card-text">如果有很多台服务器，并且因为业务需要，导致服务器的时间必须一致时。这时就需要有一台 NTP 服务器来实现这个需求，下面三哥就讲一下如何在服务器上配置 NTP 时间服务。</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="clearfix">
+                                    <span class="float-left">
+                                        <a href="https://www.vtrois.com/ntp-server.html">
+                                            <i class="volcano v3-activity"></i> 2017年11月22日</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/ntp-server.html">
+                                            <i class="volcano v3-browse"></i> 2.22k 次阅读</a>
+                                    </span>
+                                    <span class="float-left d-none d-md-block d-lg-block">
+                                        <a class="ml-2" href="https://www.vtrois.com/ntp-server.html#respond">
+                                            <i class="volcano v3-interactive"></i> 2 条评论</a>
+                                        <a class="ml-2" href="https://www.vtrois.com/ntp-server.html">
+                                            <i class="volcano v3-thumbs"></i> 478 人点赞</a>
+                                    </span>
+                                    <span class="float-right">
+                                        <a href="https://www.vtrois.com/ntp-server.html">阅读全文
+                                            <i class="volcano v3-arrow"></i>
+                                        </a>
+                                    </span>
+                                </small>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="more text-center mt-4" id="articlepage">
+                        <a href="https://www.vtrois.com/page/2" class="btn btn-primary btn-sm btn-loading">加载更多</a>
+                    </div>
+                </div>
+                <aside class="aside-widget col-lg-4 d-none d-lg-block d-xl-block">
+                    <section id="volcano_special-3" class="widget_volcano_special mb-3 clearfix">
+                        <div class="p-1">
+                            <div class="special-box">
+                                <a href="https://www.vtrois.com/tools">
+                                    <div class="mask"></div>
+                                    <div class="image" style="background-image: url(images/tools-banner.png);"></div>
+                                    <div class="title">
+                                        <p>实用的程序员在线工具箱</p>
+                                        <span>查看专题</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="volcano_comments-4" class="volcano_widget_comments mb-3 clearfix">
+                        <h3>
+                            <span>最近评论</span>
+                        </h3>
+                        <div class="comments">
+                            <a href="https://www.vtrois.com/theme-kratos.html#volcano-comments" title="发表于： 极简主义的响应式主题 Kratos">
+                                <div class="meta clearfix">
+                                    <div class="avatar float-left">
+                                        <img alt='' src='picture/37c70317ea08477298c8b5b868f3bd39.gif' srcset='https://cn.gravatar.com/avatar/4c9bd8adf874f814fdbfd80b5c2fecbd?s=120&#038;d=https%3A%2F%2Fwww.vtrois.com%2Fwp-content%2Fuploads%2Favatar.png&#038;r=g 2x'
+                                            class='avatar avatar-60 photo' height='60' width='60' />
+                                    </div>
+                                    <div class="profile d-block">
+                                        <span class="date">发布于 17 小时前（04月07日）</span>
+                                        <span class="message d-block">大佬，这个好像没有搜索？我建议右上角登陆改成搜索</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.vtrois.com/theme-dobby.html#volcano-comments" title="发表于： 简单大气的响应式主题 Dobby">
+                                <div class="meta clearfix">
+                                    <div class="avatar float-left">
+                                        <img alt='' src='picture/d676239ffe0b4b61a065ee9769495ca0.gif' srcset='https://cn.gravatar.com/avatar/8f63be12addfdc099b371e5551346bb0?s=120&#038;d=https%3A%2F%2Fwww.vtrois.com%2Fwp-content%2Fuploads%2Favatar.png&#038;r=g 2x'
+                                            class='avatar avatar-60 photo' height='60' width='60' />
+                                    </div>
+                                    <div class="profile d-block">
+                                        <span class="date">发布于 19 小时前（04月07日）</span>
+                                        <span class="message d-block">大佬你好，问一下这款主题后续有没有添加Google AdSense/百度联盟等广告代码的功能，希望您...</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.vtrois.com/theme-kratos.html#volcano-comments" title="发表于： 极简主义的响应式主题 Kratos">
+                                <div class="meta clearfix">
+                                    <div class="avatar float-left">
+                                        <img alt='' src='picture/aa03d42dd2be4d61a9868256c54aefd1.gif' srcset='https://cn.gravatar.com/avatar/12f3c55f3dfcedf7859947b3209a3672?s=120&#038;d=https%3A%2F%2Fwww.vtrois.com%2Fwp-content%2Fuploads%2Favatar.png&#038;r=g 2x'
+                                            class='avatar avatar-60 photo' height='60' width='60' />
+                                    </div>
+                                    <div class="profile d-block">
+                                        <span class="date">发布于 19 小时前（04月07日）</span>
+                                        <span class="message d-block">今天早上PC端正常了，手机端还是不显示，包括分享内的QQ,新浪等图标。</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.vtrois.com/theme-kratos.html#volcano-comments" title="发表于： 极简主义的响应式主题 Kratos">
+                                <div class="meta clearfix">
+                                    <div class="avatar float-left">
+                                        <img alt='' src='picture/fe9695a9cbbb4cdb9e4e84c4c862d3f2.gif' srcset='https://cn.gravatar.com/avatar/1a87de705793bcddf77b70e42cdeb2a0?s=120&#038;d=https%3A%2F%2Fwww.vtrois.com%2Fwp-content%2Fuploads%2Favatar.png&#038;r=g 2x'
+                                            class='avatar avatar-60 photo' height='60' width='60' />
+                                    </div>
+                                    <div class="profile d-block">
+                                        <span class="date">发布于 22 小时前（04月07日）</span>
+                                        <span class="message d-block">还是不行，</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.vtrois.com/theme-dobby.html#volcano-comments" title="发表于： 简单大气的响应式主题 Dobby">
+                                <div class="meta clearfix">
+                                    <div class="avatar float-left">
+                                        <img alt='' src='picture/81b71cda09d44e7a84f65f6e9e06f1ce.gif' srcset='https://cn.gravatar.com/avatar/ea7aa1c86f8c19f5d60e390dd5a3ad3b?s=120&#038;d=https%3A%2F%2Fwww.vtrois.com%2Fwp-content%2Fuploads%2Favatar.png&#038;r=g 2x'
+                                            class='avatar avatar-60 photo' height='60' width='60' />
+                                    </div>
+                                    <div class="profile d-block">
+                                        <span class="date">发布于 24 小时前（04月07日）</span>
+                                        <span class="message d-block">三哥，我已经打赏啦，咋加群获取Ravenclaw呀？</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                    <div id="sidebarsticky">
+                        <section id="volcano_posts-2" class="widget_volcano_posts mb-3 clearfix">
+                            <h3>
+                                <span>文章推荐</span>
+                            </h3>
+                            <ul class="item-box">
+                                <li class="item clearfix">
+                                    <a href="https://www.vtrois.com/vlmcsd-kms-server.html" class="text-dark d-block" title="KMS 服务器的配置与使用">
+                                        <div class="item-img">
+                                            <img width="480" height="300" src="picture/kms.png" class="thumbnail" alt="KMS 服务器的配置与使用"
+                                                style="display: inline;">
+                                        </div>
+                                        <div class="item-content">
+                                            <p class="item-title">KMS 服务器的配置与使用</p>
+                                            <p class="item-excerpt">介绍一款很棒的开源工具 vlmcsd，这是一款由 C 语言编写的 KMS 模拟器&hellip;</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item clearfix">
+                                    <a href="https://www.vtrois.com/pandorabox-load-balancing-config.html" class="text-dark d-block"
+                                        title="PandoraBox 负载均衡配置">
+                                        <div class="item-img">
+                                            <img width="480" height="300" src="picture/mwan-2.png" class="thumbnail" alt="PandoraBox 负载均衡配置"
+                                                style="display: inline;">
+                                        </div>
+                                        <div class="item-content">
+                                            <p class="item-title">PandoraBox 负载均衡配置</p>
+                                            <p class="item-excerpt">单线多拨就是让用户在只有一个宽带账号的情况下，在路由器上同时多次拨号，可以将带宽&hellip;</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item clearfix">
+                                    <a href="https://www.vtrois.com/random-algorithm.html" class="text-dark d-block" title="红包的随机算法基础实现">
+                                        <div class="item-img">
+                                            <img width="480" height="300" src="picture/random-algorithm.png" class="thumbnail"
+                                                alt="红包的随机算法基础实现" style="display: inline;">
+                                        </div>
+                                        <div class="item-content">
+                                            <p class="item-title">红包的随机算法基础实现</p>
+                                            <p class="item-excerpt">一个基于 PHP 的随机算法，完成了模仿 QQ、微信的红包随机分配规则，实现 N&hellip;</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item clearfix">
+                                    <a href="https://www.vtrois.com/the-wifi-love.html" class="text-dark d-block" title="谁说 Wi-Fi 无真爱?">
+                                        <div class="item-img">
+                                            <img width="480" height="300" src="picture/wifi-love.png" class="thumbnail" alt="谁说 Wi-Fi 无真爱?"
+                                                style="display: inline;">
+                                        </div>
+                                        <div class="item-content">
+                                            <p class="item-title">谁说 Wi-Fi 无真爱?</p>
+                                            <p class="item-excerpt">某年某日，小明在一个美妙的地方偶然遇到一个妹子，她漂亮单身！她凹凸有致！她粉嫩多&hellip;</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item clearfix">
+                                    <a href="https://www.vtrois.com/webshellkill.html" class="text-dark d-block" title="WebShell 查杀利器">
+                                        <div class="item-img">
+                                            <img width="480" height="300" src="picture/webshellkill.png" class="thumbnail" alt="WebShell 查杀利器"
+                                                style="display: inline;">
+                                        </div>
+                                        <div class="item-content">
+                                            <p class="item-title">WebShell 查杀利器</p>
+                                            <p class="item-excerpt">D盾 WebShell 查杀工具使用自行研发不分扩展名的代码分析引擎，能分析更为&hellip;</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item clearfix">
+                                    <a href="https://www.vtrois.com/sublime-text-remove-all-comments.html" class="text-dark d-block"
+                                        title="Sublime Text 一键去掉所有注释">
+                                        <div class="item-img">
+                                            <img width="480" height="300" src="picture/sublime-text.png" class="thumbnail" alt="Sublime Text 一键去掉所有注释"
+                                                style="display: inline;">
+                                        </div>
+                                        <div class="item-content">
+                                            <p class="item-title">Sublime Text 一键去掉所有注释</p>
+                                            <p class="item-excerpt">Sublime Text 是一款具有代码高亮、语法提示、自动完成且反应快速的编辑&hellip;</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-more-list text-center mb-3 d-none d-sm-block">
+                        <ul id="menu-%e5%ba%95%e9%83%a8%e8%8f%9c%e5%8d%95" class="">
+                            <li>
+                                <a href="https://www.vtrois.com/about.html">关于作者</a>
+                            </li>
+                            <li>
+                                <a href="https://www.vtrois.com/tools">在线工具</a>
+                            </li>
+                            <li>
+                                <a href="https://www.vtrois.com/links.html">友情链接</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-center text-muted">
+                        <div class="copyright">
+                            <small>© 2018 Vtrois&#039;s Blog. All Rights Reserved.</small>
+                            <small class="license mt-2">Theme Volcano Made By Vtrois.</small>
+                        </div>
+                        <div class="miitbeian mt-2">
+                            <small class="mx-1 text-muted">
+                                <a href="http://www.miitbeian.gov.cn/" rel="external nofollow" target="_blank">京ICP备16025521号-1</a>
+                            </small>
+                            <small class="mx-1 text-muted">
+                                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102002424" rel="external nofollow"
+                                    target="_blank">京公网安备11010102002424号</a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="gotop-box">
+        <a href="#" class="gotop-btn">
+            <i class="volcano v3-packup"></i>
+        </a>
+    </div>
+    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+    <script type='text/javascript' src='js/new.js'></script>
+</body>
+
+</html>

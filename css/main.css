@@ -1,0 +1,33 @@
+.navbar-brand {
+    margin-right: 0rem;
+}
+
+@media (min-width: 576px) {
+    .container {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        margin-right: 2rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .nav-link {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+}
